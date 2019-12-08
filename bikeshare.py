@@ -21,14 +21,14 @@ def get_filters():
             continue
 
         month = input('Please enter a month from January to June or All : ').lower()
-        print('Month= '+ month)
+        print('Month= {} '.format(month))
         if month not in months:
             print('Incorrect Month, please reinput data')
             continue
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
 
         day = input('Please choose a day of the week or type \'all\' for everyday: ').lower()
-        print('Day= ' + day)
+        print('Day= {}'.format(day))
         if day not in days:
             print('Incorrect Day, please reinput data')
             continue
@@ -117,7 +117,7 @@ def station_stats(df):
     # TO DO: display most commonly used end station
     print('Discovering end station')
     most_end = df['End Station'].mode()[0]
-    print('Most used End Station:',most_end)
+    print('Most used End Station:{}'.format(most_end))
 
 
     # TO DO: display most frequent combination of start station and end station trip
