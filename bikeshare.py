@@ -15,7 +15,7 @@ def get_filters():
 
     while True:
         city =  input('Please enter a city to get data from Chicago, New York City or Washington: ').lower()
-        print('City = ' + city)
+        print('City = {} '.format(city))
         if city not in cities:
             print('Incorrect City, please reinput data')
             continue
