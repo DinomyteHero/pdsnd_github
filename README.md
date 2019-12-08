@@ -9,7 +9,7 @@ The Bikeshare Python project
 
 ### Description
 It takes the data that was given and gives out information and statistics based on the city,month and day that was chosen 
-by the user.
+by the user. The user also has the option to obtain the raw data after viewing the statistics.
 
 ### Files used
 bikeshare.py
