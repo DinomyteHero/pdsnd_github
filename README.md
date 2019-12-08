@@ -1,5 +1,8 @@
 ### Date created
-I created this project on the 4th of December 2019
+This project was created on the 4th of December 2019
+
+### Creator
+This project was created by Louis Bouwer
 
 ### Project Title
 The Bikeshare Python project

@@ -8,7 +8,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 
 
 def get_filters():
-    print('Hello! Let\'s explore some US bikeshare data!')
+    print('Hello There! Let\'s explore some US bikeshare data!')
     cities = ['chicago','new york city', 'washington']
     months = ['all','january','february','march','april','may','june']
     days = ['all','monday','sunday','saturday','tuesday','wednesday','thursday','friday']
